@@ -8,20 +8,19 @@ body,html {
 
 .nav {
 
-  		overflow: hidden;
-		}
+   overflow: hidden;
+}
 
 .nav li { 
 
-
-		  float: left;
-  		display: block ;
-  		color: limegreen;
- 		 text-align: center; 
- 		 font-weight: bold;
-  		padding: 14px 16px;
-  		text-decoration: none;
-  		cursor: pointer;
+    float: left;
+    display: block ;
+    color: limegreen;
+    text-align: center; 
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
 	}
 
 .button1 {
