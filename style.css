@@ -1,0 +1,90 @@
+body,html { 
+  background: url(img/pexels-jonathan-borba-5796484.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav {
+
+  		overflow: hidden;
+		}
+
+.nav li { 
+
+
+		  float: left;
+  		display: block ;
+  		color: limegreen;
+ 		 text-align: center; 
+ 		 font-weight: bold;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		cursor: pointer;
+	}
+
+.button1 {
+  background-color: limegreen;                        
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+
+hr{
+
+	opacity: 1;
+	color: white;
+}
+
+
+.column{
+
+	padding : 10px;
+	float:left;
+
+}
+
+
+.column.middle{
+
+	width : 55%;
+	font-size: 3em;
+	font-family: Calibri;
+	text-shadow: 0 0 12px white, 0 0 10px limegreen;
+
+}
+
+
+.column.side{
+
+	width : 25%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button {
+    display: block;
+    margin: 4px auto;
+	  background-color: limegreen;      
+	  border: none;
+	  color: white;
+	  padding: 16px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  font-size: 16px;
+	  cursor : pointer;
+}
